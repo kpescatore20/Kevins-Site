@@ -1,4 +1,5 @@
 # KevinsSite
+# Hello! Welcome to my personal site where I am doing Angualr development and learning deployment practices. 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
 
