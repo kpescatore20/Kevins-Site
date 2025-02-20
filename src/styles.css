@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #90AEAD;
+    font-family: Alegreya Sans SC;
+    color: var(--light-blue);
+}
+
+:root {
+    --light-blue: #90AEAD;
+    --off-white: #FBE9D0;
+    --orange: #E64833;
+    --brown : #874f41;
+    --blue-gray: #90AEAD;
+
+}
