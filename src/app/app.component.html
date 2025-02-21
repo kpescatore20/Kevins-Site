@@ -7,16 +7,19 @@
     <title>Kevin Pescatore Personal Site</title>
   </head>
   <body>
-    <!-- <img src="https://via.placeholder.com/200" alt="Kevin's Logo" height="500" width="500"> -->
+    <!-- <img src="./assets/img/logo.png" alt="Kevin's Logo" height="500" width="500"> -->
+    <router-outlet>
     <div class="Header">
+      <nav>
       <ul>
         <li><a routerLink="/about">Home</a></li>
         <li><a routerLink="/projects">Projects</a></li>
-        <li style="float:right"><a class="Contact" routerLink="/contact">Contact</a></li>
+        <li style="float:right"><a class="Contact" routerLink="/about" routerLinkActive="active">Contact</a></li>
         <li><a routerLink="/resume">Resume</a></li>
       </ul>
+      </nav>
       <div class="Title">Kevin Pescatore Personal Site</div>
     </div>
-    <router-outlet></router-outlet>
+    </router-outlet>
   </body>
 </html>
